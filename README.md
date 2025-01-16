@@ -73,5 +73,3 @@ This project is licensed under the MIT License.
 For more information, visit [https://pasteit.ftoolz.xyz](https://pasteit.ftoolz.xyz).
 
 ---
-
-You can create the README.md file using this content in your repository. Would you like me to proceed with creating the file for you?
