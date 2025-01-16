@@ -1,5 +1,3 @@
-Based on the content of `codeport.go`, here is a draft of the README.md file:
-
 # CodePort
 
 CodePort is a CLI tool for sharing and downloading code snippets. It allows users to upload code files to a server and retrieve them using a unique ID.
