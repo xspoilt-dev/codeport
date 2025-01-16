@@ -27,7 +27,7 @@ chmod +x install.sh
 To upload a code file to the server, use the following command:
 
 ```bash
-./codeport -f <file_path> -l <language> -t <title> -d <description> -p <password>
+codeport -f <file_path> -l <language> -t <title> -d <description> -p <password>
 ```
 
 - `-f`: Path to the file to upload (required)
@@ -39,7 +39,7 @@ To upload a code file to the server, use the following command:
 Example:
 
 ```bash
-./codeport -f example.py -l python -t "Example Code" -d "This is an example code snippet." -p "mypassword"
+codeport -f example.py -l python -t "Example Code" -d "This is an example code snippet." -p "mypassword"
 ```
 
 ### Downloading Code
@@ -47,7 +47,7 @@ Example:
 To download a code file from the server, use the following command:
 
 ```bash
-./codeport -g <paste_id> -o <output_file>
+codeport -g <paste_id> -o <output_file>
 ```
 
 - `-g`: Paste ID to download the file (required)
@@ -56,7 +56,7 @@ To download a code file from the server, use the following command:
 Example:
 
 ```bash
-./codeport -g abc123 -o downloaded_code.py
+codeport -g abc123 -o downloaded_code.py
 ```
 
 ## Contributors
